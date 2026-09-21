@@ -219,21 +219,3 @@ def get_model_info() -> dict:
         "training_samples": len(cleaned_texts),
     }
 
-
-
-
-# def categorize_grievance(description: str) -> str:
-#     text = description.lower()
-#     if any(w in text for w in ["road", "pothole", "bridge", "street"]):
-#         return "Infrastructure"
-#     elif any(w in text for w in ["water", "drain", "sewage", "pipe","sanitation"]):
-#         return "Sanitation"
-#     elif any(w in text for w in ["electricity", "power", "light", "wire","transformer"]):
-#         return "Electricity"
-#     elif any(w in text for w in ["hospital", "doctor", "medicine", "health","accident"]):
-#         return "Health"
-#     elif any(w in text for w in ["school", "education", "teacher", "college"]):
-#         return "Education"
-#     elif any(w in text for w in ["police", "crime", "theft", "safety"]):
-#         return "Law & Order"
-#     return "General"
